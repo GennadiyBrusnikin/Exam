@@ -1,32 +1,21 @@
 {
-  "name": "gulp",
+  "name": "test",
   "version": "1.0.0",
   "description": "",
-  "main": "gulp.js",
+  "main": "index.js",
   "scripts": {
-    "test": "scss-lint src/components/* --config lint.yml"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/neomulik/Gulp.git"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/neomulik/Gulp/issues"
-  },
-  "homepage": "https://github.com/neomulik/Gulp#readme",
   "devDependencies": {
-    "gulp": "^3.9.0",
-    "gulp-autoprefixer": "^3.1.0",
-    "gulp-browserify": "^0.5.1",
-    "gulp-cache": "^0.4.0",
-    "gulp-clean-css": "^2.0.7",
-    "gulp-concat": "^2.6.0",
-    "gulp-imagemin": "^2.4.0",
-    "gulp-rename": "^1.2.2",
-    "gulp-ruby-sass": "^2.0.5",
-    "gulp-server-livereload": "^1.5.4",
-    "gulp-sourcemaps": "^1.6.0"
+    "grunt": "^1.0.1",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-cssmin": "^1.0.1",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-uglify": "^1.0.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-sass": "^1.2.0",
+    "load-grunt-tasks": "^3.5.0"
   }
 }
